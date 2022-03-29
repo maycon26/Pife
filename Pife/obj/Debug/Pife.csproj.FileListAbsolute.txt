@@ -1,0 +1,7 @@
+C:\Users\felip\Documents\Programacao\Csharp\Pife\Pife\obj\Debug\Pife.csprojAssemblyReference.cache
+C:\Users\felip\Documents\Programacao\Csharp\Pife\Pife\obj\Debug\Pife.csproj.CoreCompileInputs.cache
+C:\Users\felip\Documents\Programacao\Csharp\Pife\Pife\bin\Debug\Pife.exe.config
+C:\Users\felip\Documents\Programacao\Csharp\Pife\Pife\bin\Debug\Pife.exe
+C:\Users\felip\Documents\Programacao\Csharp\Pife\Pife\bin\Debug\Pife.pdb
+C:\Users\felip\Documents\Programacao\Csharp\Pife\Pife\obj\Debug\Pife.exe
+C:\Users\felip\Documents\Programacao\Csharp\Pife\Pife\obj\Debug\Pife.pdb
