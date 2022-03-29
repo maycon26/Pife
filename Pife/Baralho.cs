@@ -54,14 +54,20 @@ namespace Pife
         }
 
         //Carta
-        public void PegarCartaPilha()
+        public Carta PegarCartaPilha()
         {
-
+            if(Pilha.Count() > 0)
+            {
+                Carta primeiraCarta = Pilha[0];
+                Pilha.RemoveAt(0);
+                return primeiraCarta;
+            }
+            return null;
         }
 
         public void DevolverCartaPilha(Carta carta)
         {
-
+            Pilha.Insert(0, carta);
         }
     }
 }

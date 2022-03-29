@@ -12,7 +12,12 @@ namespace Pife
         
         public Jogo()
         {
+            Jogadores = new List<Jogador>();
+        }
 
+        public void AddJogador(Jogador j)
+        {
+            Jogadores.Add(j);
         }
 
         //Carta
