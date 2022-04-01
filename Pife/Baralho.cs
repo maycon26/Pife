@@ -34,8 +34,6 @@ namespace Pife
         {
             var random = new Random();
 
-            Console.WriteLine(random.Next());
-
             var query =
                 from i in CartasBaralho
                 let r = random.Next()
@@ -45,7 +43,6 @@ namespace Pife
             CartasBaralho = query.ToList();
         }
 
-        //Carta
         public Carta PegarCartaBaralho()
         {
             Carta primeiraCarta = CartasBaralho[0];
@@ -53,7 +50,6 @@ namespace Pife
             return primeiraCarta;
         }
 
-        //Carta
         public Carta PegarCartaPilha()
         {
             if(Pilha.Count() > 0)
@@ -64,10 +60,15 @@ namespace Pife
             }
             return null;
         }
-
+        
         public void DevolverCartaPilha(Carta carta)
         {
             Pilha.Insert(0, carta);
+        }
+
+        public void MostrarPilha()
+        {
+            Console.WriteLine("Carta da pilha: " + Pilha[0]);
         }
     }
 }

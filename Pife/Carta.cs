@@ -21,7 +21,7 @@ namespace Pife
 
         public override string ToString()
         {
-            return Valor + " de " + Naipe;
+            return Valor + " " + ((char)Naipe).ToString();
         }
     }
 }

@@ -15,8 +15,8 @@ namespace Pife
             Console.WriteLine();
             b.Embaralhar();
             Console.WriteLine();
-            b.PegarCartaBaralho();
-            Console.WriteLine();
+            Console.WriteLine(b.egarCartaBaralho());
+            //Console.WriteLine();
         }
     }
 }

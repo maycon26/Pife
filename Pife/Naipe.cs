@@ -8,9 +8,9 @@ namespace Pife
 {
     enum Naipe
     {
-        Paus = 3,
-        Copas = 2,
-        Espadas = 1,
-        Ouros = 0
+        Paus = '♣',
+        Copas = '♥',
+        Espadas = '♠',
+        Ouros = '♦'
     }
 }
